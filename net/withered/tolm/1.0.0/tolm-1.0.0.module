@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.withered",
+    "module": "tolm",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "tolm-1.0.0.jar",
+          "url": "tolm-1.0.0.jar",
+          "size": 16530,
+          "sha512": "25b494a8206ec45e950f6ca79ea59d3ca2fa370aa47b54e95f7030a33902a68d3b73bbb57eca7954fd9db1e3d3c6bf118d89917da61e1d0e13eeaaf121725ad9",
+          "sha256": "afe3467e1b22f8f727158e7a36cdea067b59e1401f8626f43a58a37a11f2e44d",
+          "sha1": "9d0e64ead938c072443dbe41cd329a04c693ba27",
+          "md5": "db302e7c0c8dbb08b12a7402b54e4674"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.20.1"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.18+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tolm-1.0.0.jar",
+          "url": "tolm-1.0.0.jar",
+          "size": 16530,
+          "sha512": "25b494a8206ec45e950f6ca79ea59d3ca2fa370aa47b54e95f7030a33902a68d3b73bbb57eca7954fd9db1e3d3c6bf118d89917da61e1d0e13eeaaf121725ad9",
+          "sha256": "afe3467e1b22f8f727158e7a36cdea067b59e1401f8626f43a58a37a11f2e44d",
+          "sha1": "9d0e64ead938c072443dbe41cd329a04c693ba27",
+          "md5": "db302e7c0c8dbb08b12a7402b54e4674"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tolm-1.0.0-sources.jar",
+          "url": "tolm-1.0.0-sources.jar",
+          "size": 9659,
+          "sha512": "bdbd2fc2bc9dcbc860a9c3cc2639ac49375690111542c8d2bc416be6447c17ff26b0240ddbea2907a1bde703092b5c7095802528a6dd51b9782e09cf9beb3e93",
+          "sha256": "2606b43f1281b29122fd301361c394c27156c1c5cb36ffb6bddade38e33e90c4",
+          "sha1": "75ba60079f727264a0c6ad551671b41985edd9d5",
+          "md5": "af936cce37c2cf37f7a37264ea2bb8e3"
+        }
+      ]
+    }
+  ]
+}
