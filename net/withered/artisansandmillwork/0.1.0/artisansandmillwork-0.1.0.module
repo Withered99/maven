@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.withered",
+    "module": "artisansandmillwork",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "artisansandmillwork-0.1.0.jar",
+          "url": "artisansandmillwork-0.1.0.jar",
+          "size": 222147,
+          "sha512": "0513e997e658eaf60d7d872528000d1b22951d202d692b47d5572c25919113603366cb36e27facc804cb47441df0bb8773daf22f29f67867edd7a0af28783ff9",
+          "sha256": "dfe8f9c87adc173ee67ad0baa1d0426f07bb76c6593b0b54e40147ad0bdcc178",
+          "sha1": "bce03d9ccf9561a182fe5135a25dcafd2c169a55",
+          "md5": "f6b1f198f5daba6e3ff3aabbbaddedc0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.20.1"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.18+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "artisansandmillwork-0.1.0.jar",
+          "url": "artisansandmillwork-0.1.0.jar",
+          "size": 222147,
+          "sha512": "0513e997e658eaf60d7d872528000d1b22951d202d692b47d5572c25919113603366cb36e27facc804cb47441df0bb8773daf22f29f67867edd7a0af28783ff9",
+          "sha256": "dfe8f9c87adc173ee67ad0baa1d0426f07bb76c6593b0b54e40147ad0bdcc178",
+          "sha1": "bce03d9ccf9561a182fe5135a25dcafd2c169a55",
+          "md5": "f6b1f198f5daba6e3ff3aabbbaddedc0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "artisansandmillwork-0.1.0-sources.jar",
+          "url": "artisansandmillwork-0.1.0-sources.jar",
+          "size": 207155,
+          "sha512": "f7ada36abc0dd1f5a495aa5a2df533d0854be51fe486eb06a07f693e5576e0b7e97ef1d53f52357dc6a1f729302579e776cba1996d6263709971e60199ffa925",
+          "sha256": "a7e065b7058c25e13da07adf617580dd6dcb4228a0d86bc4e4c695666a2d26c7",
+          "sha1": "5045739152123bc46c7660c72ea542d605fc9532",
+          "md5": "7b3edb066630c96d82a36a93efa74694"
+        }
+      ]
+    }
+  ]
+}
